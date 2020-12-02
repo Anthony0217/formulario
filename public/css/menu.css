@@ -1,0 +1,19 @@
+#header{margin:auto; width: 100px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+ul,ol{list-style: none;border: black 2px;}
+
+.Brr li a{background-color: dimgray; color: white ; text-decoration: none; padding: 10px 15px; display:block;border: black 2px}
+
+.Brr li a:hover{ background-color: black;}
+
+.Brr > li {float: left;}
+
+.Brr li ul {display:none; position: absolute;border: black 2px;min-width: 140px;}
+
+.Brr li:hover > ul {display: block;}
+
+.Brr li ul li{position: relative;}
+
+.Brr li ul li ul {right:-140px ;top: 0px;}
+
+th{width: 33%;}
